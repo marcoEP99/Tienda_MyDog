@@ -1,0 +1,412 @@
+ 
+  
+
+nav{
+    background-color:black;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+nav label{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+}
+
+#Logo{
+    margin-bottom: 15px;
+}
+
+.navegador{
+    text-decoration: none;
+    color: white;
+}
+
+.liNavegador:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+.dropdown-menu li{
+    text-align: center;
+    width: 145px;
+    height: 40px;
+    border-bottom:solid rgb(204, 204, 204) 1px;
+    margin-right: 30px;
+    padding-bottom: 34px;
+}
+
+ 
+nav li{
+    height: 70px;
+    float: right;
+    padding: 22px;
+    margin-left: 20PX;
+}
+
+.Servicios{
+    padding-left: 3px;
+}
+
+
+
+
+
+nav input{
+    padding: 10px;
+    border-radius: 5px ;
+    margin-left: 30px;
+    width: 600px;
+    height: 40px;
+   
+}
+
+nav button{
+
+    border-radius: 5px;
+    height: 40px;
+    width: 35px;
+    padding: 7px;
+}
+
+nav button svg{
+    padding-bottom: 5px;
+    padding-right: 10px;
+    
+}
+nav button:hover{
+   background-color: rgb(127, 204, 255);
+}
+
+
+/*Aqui comienza el carrucel*/
+
+#carouselExampleAutoplaying{  
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 65%;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.carousel-caption{   /* aqui se coloco el lema en el carrucel*/
+    background-color: rgba(0, 0, 0, 0.367);
+    color:white;
+    margin: auto;
+    margin-bottom: 110px;
+    height: 155px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+.carousel-caption button{
+    color: white;
+    background-color: rgba(0, 106, 255, 0.732);
+    border-color: white;
+    border-radius: 4px;
+    height: 30px;
+   
+}
+
+.carousel-caption button:hover{
+    color: white;
+    background-color: rgba(0, 85, 203, 0.829);
+}
+
+#imagenCarrucelPrincipal{
+    height: 400px;
+    width: 65%;
+}
+
+
+/*Aqui comienza la seccion de ropa*/
+.sectionRopa{
+    margin:auto;
+    margin-top: 50px;
+    height: 600px;
+    width: 65%;
+    text-align: center;
+  
+}
+
+ h1{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.sectionRopa p{
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.contenidoGaleriaRopa{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.contenidoGaleriaRopa a{
+    text-decoration: none;
+    color: rgba(24, 0, 0, 0.466);
+}
+
+.contenidoGaleriaRopa a:hover{
+    color: black;
+    text-decoration:underline;
+}
+.ArticuloRopa{
+    
+    border: 1px solid rgb(201, 201, 201);  
+    margin-left: 20px;
+}
+
+.divAlineacionRopa{
+    margin-left: 60px;
+    display: flex;
+}
+
+.divAlineacionRopa svg{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ArticuloRopa:hover{
+  border: 1px solid rgb(145, 144, 144);
+}
+
+.galeriaRopa{
+     
+    width: 250px;
+    height: 250px;
+}
+
+#ropaDos{
+    display: none;
+ }
+
+ #ropaInvernalDos{
+    display: none;
+ }
+ 
+ #ropaDisfrazDos{
+    display:none;
+ }
+
+
+ .sectionRopa button{
+    color: white;
+    background-color: rgb(255, 153, 28);
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 25px;
+ }
+
+ .sectionRopa button:hover{
+    background-color: rgb(235, 133, 0);
+ }
+
+
+ /*Aqui comienza la seccion de alimentos*/
+ .sectionAlimentos{
+    margin:auto;
+    margin-top: 60px;
+    height: 850px;
+    width: 65%;
+    text-align: center;
+    
+}
+
+.galeriaAlimentos{
+    padding-top: 10px; 
+    width: 200px;
+    height: 200px;
+}
+
+
+.sectionAlimentos p{
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.contenidoGaleriaAlimentos{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+  
+}
+.contenidoGaleriaAlimentos a{
+    text-decoration: none;
+    color: rgba(24, 0, 0, 0.466);
+}
+
+.contenidoGaleriaAlimentos a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+
+.sectionAlimentos button{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+    background-color: rgb(0, 98, 255);
+    color: white;
+
+}
+  
+
+.ArticuloAlimentos{
+    border: 1px solid rgb(201, 201, 201);  
+    margin-left: 20px;
+    border-radius: 7px;
+    height: 350px;
+}
+
+
+
+.ArticuloAlimentos:hover{
+  border: 1px solid rgb(145, 144, 144);
+}
+
+
+/*Aqui comienza la seccion de destacados*/
+
+.sectionDestacados{
+    margin:auto;
+    margin-top: 60px;
+    height: 600px;
+    width: 65%;
+    text-align: center;
+    
+}
+
+.sectionDestacados p{
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.grupoDivDestacados{ /*hace que los componenetes se pongan en linea*/
+    display: flex;
+    
+  }
+
+.divDestacados {
+    margin-top: 60px;
+    margin-left: 39px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace que el div sea circular */
+    overflow: hidden; /* Oculta el contenido que se salga del círculo */
+    border: 2px solid rgb(185, 185, 185);
+    transition: all 0.8s ease;
+  }
+  .divDestacados a {
+    display: block; /* Convierte el enlace en un bloque para poder ajustar su tamaño */
+    height: 100%; /* Ajusta la altura del enlace para que llene todo el div */
+  }
+  .divDestacados img {
+    display: block; /* Convierte la imagen en un bloque para poder ajustar su tamaño */
+    width: 100%; /* Ajusta el ancho de la imagen para que llene todo el enlace */
+    height: auto; /* Ajusta la altura de la imagen automáticamente para mantener su relación de aspecto */
+  }
+
+  .grupoDivDestacados2{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 280px;
+
+  }
+ 
+
+  .divDestacados:hover{
+    margin-top: 60px;
+    margin-left: 39px;
+   
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /* Hace que el div sea circular */
+    overflow: hidden; /* Oculta el contenido que se salga del círculo */
+    border: 2px solid rgb(59, 59, 59);
+    
+  }
+
+
+
+/*Aqui comienza el Footer*/
+
+  footer{
+    color: white;
+    margin-bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 330px;
+    
+  }
+
+  .divFooter{
+    margin-top: 80px;
+    display: flex;
+
+  }
+
+  .divFooter ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+
+  .divFooter div{
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 125px;
+    
+  }
+
+  .divFooter div svg{
+    display: block;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .divFooter  a{
+    
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .derechosReservados{
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
