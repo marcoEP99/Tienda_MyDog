@@ -15,3 +15,9 @@ iniciarSesion.addEventListener("click", function () {
     // derigimos a la pagina principal.
   }
 });
+
+
+
+function registrarse() {
+  window.open("../Registro/index-Registro.html");
+}
